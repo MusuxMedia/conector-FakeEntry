@@ -16,7 +16,8 @@ async def say_hello(name: str):
     return {"message": f"Hello {name}"}
 
 
-@app.get("/llamador/consultorio={consultorio}&display={display}&paciente={paciente}&token={token}")
-def fake_entry(consultorio: str, display: str, token: str, paciente: str):
+@app.get("/llamador/")
+def fake_entry(consultorio: str, display: str, token: str, nombre: str):
     display = DisplayParser().parse(pantallas=display)
-    Debmedia().fake_entry(consultorio, paciente, token, display)
+    Debmedia().fake_entry(consultorio, nombre, token, display)
+    return None

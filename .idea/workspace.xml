@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48e20d76-c897-4635-9892-2b66753f058e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pruebaMarkeyFast.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demedia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayParser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/BusinessException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/DebmediaTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/ParserTests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    <list default="true" id="48e20d76-c897-4635-9892-2b66753f058e" name="Changes" comment="V 1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/DebmediaTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/DebmediaTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "FastAPI.pruebaMarkeyFast.executor": "Run",
+    "Python tests.Python tests for DebmediaTest.DebmTest.executor": "Run",
     "Python tests.Python tests for DebmediaTest.DebmTest.test_fake_entry.executor": "Run",
     "Python tests.Python tests for ParserTests.DisplayParserTest.executor": "Run",
     "Python tests.Python tests for ParserTests.DisplayParserTest.test_lista_negativos_y_ceros.executor": "Run",
@@ -80,7 +71,7 @@
       <recent name="C:\Users\Miguel\PycharmProjects\pruebaMarkeyFast\src\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="FastAPI.pruebaMarkeyFast">
+  <component name="RunManager" selected="Python tests.Python tests for DebmediaTest.DebmTest">
     <configuration name="Demedia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pruebaMarkeyFast" />
       <option name="ENV_FILES" value="" />
@@ -209,8 +200,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for DebmediaTest.DebmTest" />
-        <item itemvalue="Python.Demedia" />
         <item itemvalue="Python tests.Python tests for DebmediaTest.DebmTest.test_fake_entry" />
+        <item itemvalue="Python.Demedia" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Python tests for src.tests.ParserTests.DisplayParserTest" />
       </list>
@@ -232,18 +223,31 @@
       <option name="presentableId" value="Default" />
       <updated>1724444209441</updated>
       <workItem from="1724444249731" duration="2382000" />
-      <workItem from="1724683068528" duration="8983000" />
+      <workItem from="1724683068528" duration="12159000" />
     </task>
+    <task id="LOCAL-00001" summary="V 1.0">
+      <option name="closed" value="true" />
+      <created>1724703211458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724703211458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.0" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pruebaMarkeyFast$Demedia.coverage" NAME="Demedia Coverage Results" MODIFIED="1724702838081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/pruebaMarkeyFast$main.coverage" NAME="main Coverage Results" MODIFIED="1724686032572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pruebaMarkeyFast$.coverage" NAME=" Coverage Results" MODIFIED="1724702766681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
-    <SUITE FILE_PATH="coverage/pruebaMarkeyFast$pruebaMarkeyFast.coverage" NAME="pruebaMarkeyFast Coverage Results" MODIFIED="1724701331825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pruebaMarkeyFast$.coverage" NAME=" Coverage Results" MODIFIED="1724706072817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/pruebaMarkeyFast$pruebaMarkeyFast.coverage" NAME="pruebaMarkeyFast Coverage Results" MODIFIED="1724706091546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/pruebaMarkeyFast$DisplayParser.coverage" NAME="DisplayParser Coverage Results" MODIFIED="1724685835774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
