@@ -1,5 +1,4 @@
 from fastapi import FastAPI, status
-
 from src.Demedia import Debmedia
 from src.DisplayParser import DisplayParser
 
