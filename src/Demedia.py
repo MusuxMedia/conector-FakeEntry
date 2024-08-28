@@ -4,8 +4,9 @@ import requests
 
 
 class Debmedia:
-    def fake_entry(self, consultorio: str, token: str, pantallas: list[int], paciente: str = "", turno: str = ""):
-        url = "https://debq2.debmedia.com/api/screen/fakeentry"
+    def fake_entry(self, consultorio: str, token: str, pantallas: list[int], server: str, paciente: str = "",
+                   turno: str = ""):
+        url = self.validar_url(server)
 
         payload = self.__get_payload(screen_ids=pantallas, turno=turno, puesto=consultorio, paciente=paciente)
         headers = {
@@ -26,3 +27,6 @@ class Debmedia:
     def validar_response(self, response: requests.Response):
         if response.status_code == 401:
             raise HTTPException(status_code=401, detail="Token incorrecto")
+
+    def validar_url(self, server: str):
+        return f"https://{server}.debmedia.com/api/screen/fakeentry"
