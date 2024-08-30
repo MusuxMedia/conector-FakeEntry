@@ -1,6 +1,6 @@
 from fastapi import FastAPI, status
-from src.Demedia import Debmedia
-from src.DisplayParser import DisplayParser
+from .src import Debmedia
+from .src import DisplayParser
 
 app = FastAPI()
 
